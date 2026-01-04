@@ -1,3 +1,18 @@
+# MYTD4_CPU
+
+参考TD4CPU设计的一款4位CPU
+
+## 模型图
+
+![MainBoard](pic/MainBoard.png)
+
+![ROM](pic/ROM.png)
+
+## 实物图
+
+![PhysicalObject](pic/PhysicalObject.jpg)
+
+## 指令集
 | instruction | bit7-bit4 | bit3-bit0 | C | SEL_B | SEL_A | #LOAD0 | #LOAD1 | #LOAD2 | #LOAD3 
 |:------------|:---------:|:----------|:-:|:------:|:-----:|:-----:|:------:|:------:|:------:|
 |ADD A, Im    |0000       |Im         |X  |   L    |   L   |   L   |   H    |   H   |   H    |
@@ -106,6 +121,3 @@ OUT 4		1011 0101	0xB5
 数码管(若0为亮)
 
 显示0： 1100 0000	0xC0
-
-
-
